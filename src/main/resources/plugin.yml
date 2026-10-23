@@ -1,0 +1,16 @@
+name: HardcoreResetter
+version: '1.0.2'
+main: com.hardcoreresetter.HardcoreResetterPlugin
+api-version: '1.21'
+description: Deletes the play world and starts a new one when any player dies.
+author: hardcore resetter
+commands:
+  hardcorereset:
+    description: Delete this world and start a new one for everybody.
+    usage: /<command> confirm
+    permission: hardcoreresetter.force
+    aliases: [hcr]
+permissions:
+  hardcoreresetter.force:
+    description: Force a full world reset without waiting for a death.
+    default: op

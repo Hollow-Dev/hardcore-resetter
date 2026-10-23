@@ -1,0 +1,16 @@
+# Seconds between the death and the new world. 0 starts it immediately.
+countdown-seconds: 10
+
+# A death in one of these gamemodes resets the world for everybody.
+# Creative and spectator are left out so an operator flying around does not wipe the server.
+trigger-gamemodes:
+  - SURVIVAL
+  - ADVENTURE
+
+# Hardcore hearts on the play world. The player who died is unbanned so they can keep playing.
+hardcore: true
+
+death-broadcast: "{message} Run {run} lasted {time}. Deaths: {deaths}."
+reset-title: "WORLD RESET"
+reset-subtitle: "New world in {seconds}s"
+new-world-message: "Run {run}. Deaths: {deaths}. Seed {seed}. Nothing carried over."
