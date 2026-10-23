@@ -2,8 +2,8 @@ name: HardcoreResetter
 version: '1.0.2'
 main: com.hardcoreresetter.HardcoreResetterPlugin
 api-version: '1.21'
-description: Deletes the play world and starts a new one when any player dies.
-author: hardcore resetter
+description: Deletes the world and starts a new one when any player dies.
+author: HollowDev
 commands:
   hardcorereset:
     description: Delete this world and start a new one for everybody.
